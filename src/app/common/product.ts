@@ -5,7 +5,7 @@ export class Product {
   unitPrice: number;
   imageUrl: string;
   active: boolean;
-  unitStock: number;
+  unitsInStocke: number;
   dateCreated: Date;
   dateUpdated: Date;
 }

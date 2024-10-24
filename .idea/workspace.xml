@@ -25,7 +25,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HMZ/Documents/Spring/Work_S/Ecom_JV_ANG/FrontEnd_Ecom/Angular_Ecom",
+    "last_opened_file_path": "C:/Users/HMZ/Documents/Spring/Work_S/Ecom_JV_ANG/FrontEnd_Ecom/Angular_Ecom/src/app/components/product-list",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -36,6 +36,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HMZ\Documents\Spring\Work_S\Ecom_JV_ANG\FrontEnd_Ecom\Angular_Ecom\src\app\components\product-list" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (hello-world)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
@@ -82,7 +87,7 @@
       <workItem from="1729768917033" duration="1011000" />
       <workItem from="1729770022718" duration="447000" />
       <workItem from="1729770493928" duration="226000" />
-      <workItem from="1729770748895" duration="4457000" />
+      <workItem from="1729770748895" duration="7411000" />
     </task>
     <servers />
   </component>
