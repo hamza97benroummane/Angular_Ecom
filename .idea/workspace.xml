@@ -4,7 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="" />
+    <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/components/product-list/product-list-grid.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/__ngcc_entry_points__.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/__ngcc_entry_points__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/lib/getHashDigest.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loader-utils/lib/getHashDigest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/lib/interpolateName.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loader-utils/lib/interpolateName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/lib/parseQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loader-utils/lib/parseQuery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loader-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loader-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/comparator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/comparator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/classes/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/classes/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/cmp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/cmp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/coerce.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/coerce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/diff.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/diff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/inc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/inc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/functions/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/functions/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/internal/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/internal/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/internal/identifiers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/internal/identifiers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/internal/re.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/internal/re.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/intersects.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/intersects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/min-version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/min-version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/outside.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/outside.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/simplify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/simplify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/ranges/subset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/ranges/subset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/PATRONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/PATRONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/dist/bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/compress/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/compress/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/equivalent-to.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/equivalent-to.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/minify.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/minify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/mozilla-ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/mozilla-ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/output.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/output.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/propmangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/propmangle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/scope.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/scope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/size.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/size.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/sourcemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/sourcemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/utils/first_in_statement.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/utils/first_in_statement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/lib/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/lib/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/domprops.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/domprops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/props.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/props.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/terser/tools/terser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/terser/tools/terser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/product-list/product-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/product-list/product-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,21 +86,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HMZ/Documents/Spring/Work_S/Ecom_JV_ANG/FrontEnd_Ecom/Angular_Ecom/src/app/components/product-list",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Users\\HMZ\\Documents\\Spring\\Work_S\\Ecom_JV_ANG\\FrontEnd_Ecom\\Angular_Ecom\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HMZ/Documents/Spring/Work_S/Ecom_JV_ANG/FrontEnd_Ecom/Angular_Ecom/src/app/components/product-list&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HMZ\\Documents\\Spring\\Work_S\\Ecom_JV_ANG\\FrontEnd_Ecom\\Angular_Ecom\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HMZ\Documents\Spring\Work_S\Ecom_JV_ANG\FrontEnd_Ecom\Angular_Ecom\src\app\components\product-list" />
@@ -87,7 +152,8 @@
       <workItem from="1729768917033" duration="1011000" />
       <workItem from="1729770022718" duration="447000" />
       <workItem from="1729770493928" duration="226000" />
-      <workItem from="1729770748895" duration="8042000" />
+      <workItem from="1729770748895" duration="8259000" />
+      <workItem from="1729847390853" duration="5963000" />
     </task>
     <servers />
   </component>
