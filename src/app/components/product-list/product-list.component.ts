@@ -12,6 +12,7 @@ export class ProductListComponent implements OnInit {
 
   products: Product[];
   currentCategoryId: number;
+  SearchMode: boolean;
 
   constructor(private productService: ProductService,
               private route: ActivatedRoute) { }
@@ -23,6 +24,17 @@ export class ProductListComponent implements OnInit {
   }
   // tslint:disable-next-line:typedef
   listProducts(){
+    // this.handleSearchProducts();
+    this.SearchMode = this.route.snapshot.paramMap.has('keyword');
+    if (this.SearchMode) {
+      this.handleSearchProducts();
+    } else {
+      this.handleListProducts();
+    }
+  }
+  // tslint:disable-next-line:typedef
+  handleListProducts() {
+
     // check if "id" param is available
     const hasCategoryId: boolean = this.route.snapshot.paramMap.has('id');
 
@@ -39,6 +51,17 @@ export class ProductListComponent implements OnInit {
         this.products = data;
       }
     );
+
   }
 
+  // tslint:disable-next-line:typedef
+  private handleSearchProducts() {
+    const theKeyword: string = this.route.snapshot.paramMap.get('keyword');
+    this.productService.searchProducts(theKeyword).subscribe(
+      data1 => {
+        this.products = data1;
+        console.log('data00: ' + JSON.stringify(data1));
+      }
+    );
+  }
 }
