@@ -10,13 +10,13 @@ import {ActivatedRoute} from '@angular/router';
 })
 export class ProductListComponent implements OnInit {
 
-  products: Product[];
+  products: Product[] = [];
   currentCategoryId = 1;
   private previousCategoryId = 1;
   SearchMode = false;
 
   thePageNumber = 1;
-  thePageSize = 10;
+  thePageSize = 5;
   theTotalElements = 0;
 
   constructor(private productService: ProductService,
@@ -43,9 +43,9 @@ export class ProductListComponent implements OnInit {
   private handleSearchProducts() {
     const theKeyword: string = this.route.snapshot.paramMap.get('keyword');
     this.productService.searchProducts(theKeyword).subscribe(
-      data1 => {
-        this.products = data1;
-        console.log('data00: ' + JSON.stringify(data1));
+      data => {
+        this.products = data;
+        console.log('data00: ' + JSON.stringify(data));
       }
     );
   }
@@ -72,12 +72,13 @@ export class ProductListComponent implements OnInit {
       this.thePageNumber = 1;
     }
     this.previousCategoryId = this.currentCategoryId;
-    console.log(`currentCategoryId=${this.currentCategoryId}, thePageNumber=${this.thePageNumber}`);
+    // console.log(`currentCategoryId=${this.currentCategoryId}, thePageNumber=${this.thePageNumber}`);
 
     this.productService.getProductListPaginate(
       this.thePageNumber - 1,
-      this.currentCategoryId,
-      this.thePageSize).subscribe(this.processResult());
+      this.thePageSize,
+      this.currentCategoryId
+      ).subscribe(this.processResult());
 
   }
 
@@ -91,4 +92,10 @@ export class ProductListComponent implements OnInit {
     };
   }
 
+  // tslint:disable-next-line:typedef
+  updatePageSize(pageSize: number) {
+    this.thePageSize = pageSize;
+    this.thePageNumber = 1;
+    this.listProducts();
+  }
 }

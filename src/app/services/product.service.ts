@@ -68,7 +68,7 @@ export class ProductService {
 interface GetResponseProducts{
   _embedded: {
     products: Product[];
-  };
+  },
   page: {
     size: number,
     totalElements: number,
