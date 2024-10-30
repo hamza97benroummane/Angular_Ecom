@@ -19,6 +19,8 @@ export class ProductListComponent implements OnInit {
   thePageSize = 5;
   theTotalElements = 0;
 
+  previousKeyword: string = null;
+
   constructor(private productService: ProductService,
               private route: ActivatedRoute) {
   }
@@ -42,12 +44,17 @@ export class ProductListComponent implements OnInit {
   // tslint:disable-next-line:typedef
   private handleSearchProducts() {
     const theKeyword: string = this.route.snapshot.paramMap.get('keyword');
-    this.productService.searchProducts(theKeyword).subscribe(
-      data => {
-        this.products = data;
-        console.log('data00: ' + JSON.stringify(data));
-      }
-    );
+
+    // tslint:disable-next-line:triple-equals
+    if (this.previousKeyword != theKeyword) {
+      this.thePageNumber = 1;
+    }
+    this.previousKeyword = theKeyword;
+    console.log(`keyword=${theKeyword}, thePageNumber=${this.thePageNumber}`);
+
+    this.productService.SearchProductsPaginate(this.thePageNumber - 1,
+                                               this.thePageSize,
+                                               theKeyword).subscribe(this.processResult());
   }
 
   // tslint:disable-next-line:typedef
