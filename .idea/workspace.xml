@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/cart-details/cart-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/cart-details/cart-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,7 @@
       <workItem from="1730191486001" duration="21270000" />
       <workItem from="1730276378907" duration="21416000" />
       <workItem from="1730307454157" duration="73000" />
-      <workItem from="1730366354021" duration="13090000" />
+      <workItem from="1730366354021" duration="17087000" />
     </task>
     <task id="LOCAL-00001" summary="Pagination for searching by keyword">
       <created>1730284867942</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730369246423</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Checkout Form Layout formGroup formControl">
+      <created>1730386016818</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730386016818</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +158,8 @@
     <MESSAGE value="Shopping Cart Status component" />
     <MESSAGE value=" List Shopping Cart Items" />
     <MESSAGE value="Increment &amp; Decrement_Remove Item Quantity &#10;and Remove Item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Increment &amp; Decrement_Remove Item Quantity &#10;and Remove Item" />
+    <MESSAGE value="Checkout Form Layout formGroup formControl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout Form Layout formGroup formControl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
