@@ -63,4 +63,22 @@ export class CartService {
     console.log('----');
   }
 
+  // tslint:disable-next-line:typedef
+  decreaseQuantity(temp: CartItem) {
+    temp.quantity--;
+    if (temp.quantity === 0) {
+      this.remove(temp);
+    } else {
+      this.computeCartTotals();
+    }
+  }
+
+  // tslint:disable-next-line:typedef
+  remove(temp: CartItem) {
+    const itemIndex = this.cartItems.findIndex(tempCartItem => tempCartItem.id === temp.id);
+    if (itemIndex > -1) {
+      this.cartItems.splice(itemIndex, 1);
+      this.computeCartTotals();
+    }
+  }
 }

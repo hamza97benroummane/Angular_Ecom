@@ -34,4 +34,25 @@ export class CartDetailsComponent implements OnInit {
 
     this.cartService.computeCartTotals();
   }
+
+  // tslint:disable-next-line:typedef
+  increaseQuantity(temp: CartItem) {
+    this.cartService.addToCart(temp);
+
+    this.cartService.computeCartTotals();
+  }
+
+  // tslint:disable-next-line:typedef
+  decreaseQuantity(temp: CartItem) {
+    this.cartService.decreaseQuantity(temp);
+
+    this.cartService.computeCartTotals();
+  }
+
+  // tslint:disable-next-line:typedef
+  remove(temp: CartItem) {
+    this.cartService.remove(temp);
+
+    this.cartService.computeCartTotals();
+  }
 }

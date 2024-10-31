@@ -21,9 +21,36 @@
            </td>
          <td>
            <div class="items">
-             <label>Quantity: </label>{{temp.quantity}}
-           </div>
+             <label>Quantity: </label>
+             <div class="row no-gutters">
+               <div class="col">
+                 <button (click)="increaseQuantity(temp)" class="btn btn-primary btn-sm">
+               <i class="fas fa-plus">
+               </i>
+
+               </button>
+               </div>
+
+               <div class="col ml-4 mr-2">
+                 {{temp.quantity}}
+               </div>
+
+               <div class="col">
+                 <button (click)="decreaseQuantity(temp)" class="btn btn-primary btn-sm">
+                 <i class="fas fa-minus"></i>
+                 </button>
+               </div>
+
+                <div class="col-8"></div>
+
+             </div>
+
+
+          </div>
+
+           <button (click)="remove(temp)" class="btn btn-primary btn-sm">Remove</button>
            <p class="mt-2">Subtotal: {{temp.quantity * temp.unitPrice | currency : "USD"}}</p>
+
          </td>
        </tr>
 
