@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="Checkout Form Layout formGroup formControl">
-      <change afterPath="$PROJECT_DIR$/package-lock.json.3508451026" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json.3735315416" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/common/country.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/common/country.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/common/state.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/common/state.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json.2743152010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/validators/shop-validators.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/validators/shop-validators.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/shop-form.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +111,7 @@
       <workItem from="1730276378907" duration="21416000" />
       <workItem from="1730307454157" duration="73000" />
       <workItem from="1730366354021" duration="17293000" />
-      <workItem from="1730453591526" duration="9264000" />
+      <workItem from="1730453591526" duration="13695000" />
     </task>
     <task id="LOCAL-00001" summary="Pagination for searching by keyword">
       <created>1730284867942</created>
@@ -163,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730386016818</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Drop-Down Lists Countries and States dynamically">
+      <created>1730471126732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730471126732</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +175,8 @@
     <MESSAGE value=" List Shopping Cart Items" />
     <MESSAGE value="Increment &amp; Decrement_Remove Item Quantity &#10;and Remove Item" />
     <MESSAGE value="Checkout Form Layout formGroup formControl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout Form Layout formGroup formControl" />
+    <MESSAGE value="Drop-Down Lists Countries and States dynamically" />
+    <option name="LAST_COMMIT_MESSAGE" value="Drop-Down Lists Countries and States dynamically" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
