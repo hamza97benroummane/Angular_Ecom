@@ -51,10 +51,10 @@ export class ChekoutComponent implements OnInit {
         zipCode: ['']
       }),
       creditCard: this.formBuilder.group({
-        cardType: [''],
-        nameOnCard: [''],
-        cardNumber: [''],
-        securityCode: [''],
+        cardType: new FormControl('', [Validators.required, ShopValidators.notOnlyWhitespace, Validators.minLength(2), Validators.maxLength(20)]),
+        nameOnCard: new FormControl('', [Validators.required, ShopValidators.notOnlyWhitespace, Validators.minLength(2), Validators.maxLength(20)]),
+        cardNumber: new FormControl('', [Validators.required, Validators.pattern('[0-9]{16}')]),
+        securityCode: new FormControl('', [Validators.required, Validators.pattern('[0-9]{3}')]),
         expirationMonth: [''],
         expirationYear: ['']
       })
@@ -180,6 +180,12 @@ export class ChekoutComponent implements OnInit {
   get shippingAddressState() {return this.checkoutFormGroup.get('shippingAddress.state')}
   get shippingAddressCountry() {return this.checkoutFormGroup.get('shippingAddress.country')}
   get shippingAddressZipCode() {return this.checkoutFormGroup.get('shippingAddress.zipCode')}
+
+
+  get creditCardType() {return this.checkoutFormGroup.get('creditCard.cardType');}
+  get CreditCardNameOnCard() {return this.checkoutFormGroup.get('creditCard.nameOnCard');}
+  get creditCardNumber() {return this.checkoutFormGroup.get('creditCard.cardNumber');}
+  get creditCardSecurityCode() {return this.checkoutFormGroup.get('creditCard.securityCode');}
 
 
 

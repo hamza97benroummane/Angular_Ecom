@@ -236,6 +236,13 @@
                   <option>Visa</option>
                   <option>Mastercard</option>
                 </select>
+
+                <div *ngIf="creditCardType.invalid && (creditCardType.touched || creditCardType.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="creditCardType.errors.required || creditCardType.errors.notOnlyWhitespace">State is required.</div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -245,6 +252,8 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="nameOnCard" type="text">
+
+
               </div>
             </div>
           </div>
@@ -254,6 +263,15 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="cardNumber" type="text">
+
+                <div *ngIf="creditCardNumber.invalid && (creditCardNumber.touched || creditCardNumber.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="creditCardNumber.errors.required || creditCardNumber.errors.notOnlyWhitespace">Credit card number is required.</div>
+                  <div *ngIf="creditCardNumber.errors.pattern">  Please enter a valid credit card number.</div>
+
+                </div>
+
+
               </div>
             </div>
           </div>
@@ -263,6 +281,14 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="securityCode" type="text">
+
+                <div *ngIf="creditCardSecurityCode.invalid && (creditCardSecurityCode.touched || creditCardSecurityCode.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="creditCardSecurityCode.errors.required || creditCardSecurityCode.errors.notOnlyWhitespace"> Security code is required.</div>
+                  <div *ngIf="creditCardSecurityCode.errors.pattern">  Please enter a valid Security code.</div>
+
+                </div>
+
               </div>
             </div>
           </div>

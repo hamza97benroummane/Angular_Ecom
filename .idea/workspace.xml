@@ -108,7 +108,7 @@
       <workItem from="1730276378907" duration="21416000" />
       <workItem from="1730307454157" duration="73000" />
       <workItem from="1730366354021" duration="17293000" />
-      <workItem from="1730453591526" duration="15975000" />
+      <workItem from="1730453591526" duration="17704000" />
     </task>
     <task id="LOCAL-00001" summary="Pagination for searching by keyword">
       <created>1730284867942</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730477249121</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Validation Rules For  Shipping Validation">
+      <created>1730479331080</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730479331080</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +188,8 @@
     <MESSAGE value="Checkout Form Layout formGroup formControl" />
     <MESSAGE value="Drop-Down Lists Countries and States dynamically" />
     <MESSAGE value="Add Validation Rules &amp;&amp;  Display Validation Error Messages &amp;&amp; notOnlyWhitespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Validation Rules &amp;&amp;  Display Validation Error Messages &amp;&amp; notOnlyWhitespace" />
+    <MESSAGE value="Add Validation Rules For  Shipping Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Validation Rules For  Shipping Validation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
