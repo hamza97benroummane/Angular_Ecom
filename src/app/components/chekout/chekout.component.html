@@ -66,11 +66,19 @@
             <div class="col-md-2"> <label>Country</label></div>
             <div class="col-md-9">
               <div class="input-space">
+
                 <select formControlName="country" (change)="getStates('shippingAddress')">
                   <option *ngFor="let country of countries" [ngValue]="country">
                     {{country.name}}
                   </option>
                 </select>
+
+                <div *ngIf="shippingAddressCountry.invalid && (shippingAddressCountry.touched || shippingAddressCountry.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="shippingAddressCountry.errors.required || shippingAddressCountry.errors.notOnlyWhitespace">Country is required.</div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -80,6 +88,13 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="street" type="text">
+
+                <div *ngIf="shippingAddressStreet.invalid && (shippingAddressStreet.touched || shippingAddressStreet.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="shippingAddressStreet.errors.required || shippingAddressStreet.errors.notOnlyWhitespace">Street is required.</div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -89,6 +104,13 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="city" type="text">
+
+                <div *ngIf="shippingAddressCity.invalid && (shippingAddressCity.touched || shippingAddressCity.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="shippingAddressCity.errors.required || shippingAddressCity.errors.notOnlyWhitespace">City is required.</div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -104,6 +126,13 @@
                   </option>
 
                 </select>
+
+                <div *ngIf="shippingAddressState.invalid && (shippingAddressState.touched || shippingAddressState.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="shippingAddressState.errors.required || shippingAddressState.errors.notOnlyWhitespace">State is required.</div>
+
+                </div>
+
               </div>
             </div>
           </div>
@@ -113,6 +142,13 @@
             <div class="col-md-9">
               <div class="input-space">
                 <input formControlName="zipCode" type="text">
+
+                <div *ngIf="shippingAddressZipCode.invalid && (shippingAddressZipCode.touched || shippingAddressZipCode.dirty)" class="alert alert-danger mt-1">
+
+                  <div *ngIf="shippingAddressZipCode.errors.required || shippingAddressZipCode.errors.notOnlyWhitespace">Zip Code is required.</div>
+
+                </div>
+
               </div>
             </div>
           </div>
