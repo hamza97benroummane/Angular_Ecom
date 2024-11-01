@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="">
+    <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="Checkout Form Layout formGroup formControl">
+      <change afterPath="$PROJECT_DIR$/package-lock.json.3508451026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json.3735315416" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/country.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/country.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/state.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/state.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tslint/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/shop-form.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/shop-form.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,27 +35,31 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2nQrTU33mTySA157KPZ3eZIh51N" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HMZ/Documents/Spring/Work_S/Ecom_JV_ANG/FrontEnd_Ecom/Angular_Ecom/src/app/components/product-list&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\HMZ\\Documents\\Spring\\Work_S\\Ecom_JV_ANG\\FrontEnd_Ecom\\Angular_Ecom\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
+    "last_opened_file_path": "C:/Users/HMZ/Documents/Spring/Work_S/Ecom_JV_ANG/FrontEnd_Ecom/Angular_Ecom/src/app/components/product-list",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
+    "ts.external.directory.path": "C:\\Users\\HMZ\\Documents\\Spring\\Work_S\\Ecom_JV_ANG\\FrontEnd_Ecom\\Angular_Ecom\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HMZ\Documents\Spring\Work_S\Ecom_JV_ANG\FrontEnd_Ecom\Angular_Ecom\src\app\components\product-list" />
@@ -103,7 +118,8 @@
       <workItem from="1730191486001" duration="21270000" />
       <workItem from="1730276378907" duration="21416000" />
       <workItem from="1730307454157" duration="73000" />
-      <workItem from="1730366354021" duration="17087000" />
+      <workItem from="1730366354021" duration="17293000" />
+      <workItem from="1730453591526" duration="9264000" />
     </task>
     <task id="LOCAL-00001" summary="Pagination for searching by keyword">
       <created>1730284867942</created>
@@ -154,6 +170,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Pagination for searching by keyword" />
     <MESSAGE value="Shopping Cart Status component" />
     <MESSAGE value=" List Shopping Cart Items" />

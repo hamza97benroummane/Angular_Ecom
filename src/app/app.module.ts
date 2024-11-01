@@ -44,7 +44,7 @@ const routes: Routes = [
     BrowserModule,
     HttpClientModule,
     NgbModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
 
   ],
   providers: [ProductService],

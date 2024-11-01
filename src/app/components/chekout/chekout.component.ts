@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms';
 import {ShopFormService} from '../../services/shop-form.service';
+import {Country} from '../../common/country';
+import {State} from '../../common/state';
 
 @Component({
   selector: 'app-chekout',
@@ -16,6 +18,10 @@ export class ChekoutComponent implements OnInit {
 
   creditCardYears: number[] = [];
   creditCardMonths: number[] = [];
+
+  countries: Country[] = [];
+  shippingAddressStates: State[] = [];
+  billingAddressStates: State[] = [];
 
   constructor(private formBuilder: FormBuilder,
               private shopFormService: ShopFormService) { }
@@ -73,12 +79,25 @@ export class ChekoutComponent implements OnInit {
       }
     );
 
+
+
+  // populate the countries
+  this.shopFormService.getCountries().subscribe(
+    data => {
+      console.log('Retrieved countries: ' + JSON.stringify(data));
+      this.countries = data;
+    }
+  )
+
+
   }
 
   onSubmit(): void {
     console.log('handling form submission event');
     console.log(this.checkoutFormGroup.get('customer').get('firstName'));
     console.log(this.checkoutFormGroup.get('customer').value);
+    console.log('the chipping address country code: ' + this.checkoutFormGroup.get('shippingAddress').value.country.code);
+    console.log('the shipping address state: ' + this.checkoutFormGroup.get('shippingAddress').value.state.name);
   }
 
   // tslint:disable-next-line:typedef
@@ -87,12 +106,14 @@ export class ChekoutComponent implements OnInit {
   copyShippingAddressToBillingAddress(event) {
 
     if (event.target.checked) {
-      // console.log('shipping address is same as billing address' + this.checkoutFormGroup.get('shippingAddress').value);
-      this.checkoutFormGroup.controls.billingAddress
-        .setValue(this.checkoutFormGroup.controls.shippingAddress.value);
+
+      this.checkoutFormGroup.controls.billingAddress.setValue(this.checkoutFormGroup.controls.shippingAddress.value);
+
+      this.billingAddressStates = this.shippingAddressStates;
     }
     else {
-      this.checkoutFormGroup.controls.billingAddress.reset();
+      this.checkoutFormGroup.get('billingAddress').reset();
+      this.billingAddressStates = [];
     }
   }
 
@@ -119,4 +140,28 @@ export class ChekoutComponent implements OnInit {
     }
     );
   }
+
+  protected readonly Country = Country;
+
+  getStates(formGroupName: string) {
+    const formGroup = this.checkoutFormGroup.get(formGroupName);
+    const countryCode = formGroup.value.country.code;
+    const countryName = formGroup.value.country.name;
+
+    console.log('country name: ' + countryName);
+    console.log('country code: ' + countryCode);
+
+    this.shopFormService.getStates(countryCode).subscribe(
+      data => {
+        if (formGroupName === 'shippingAddress') {
+          this.shippingAddressStates = data;
+        } else {
+          this.billingAddressStates = data;
+        }
+        formGroup.get('state').setValue(data[0]);
+      }
+    );
+  }
+
+
 }
