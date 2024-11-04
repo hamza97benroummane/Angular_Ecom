@@ -4,6 +4,7 @@ import {ShopFormService} from '../../services/shop-form.service';
 import {Country} from '../../common/country';
 import {State} from '../../common/state';
 import {ShopValidators} from '../../validators/shop-validators';
+import {CartService} from '../../services/cart.service';
 
 @Component({
   selector: 'app-chekout',
@@ -25,7 +26,8 @@ export class ChekoutComponent implements OnInit {
   billingAddressStates: State[] = [];
 
   constructor(private formBuilder: FormBuilder,
-              private shopFormService: ShopFormService) { }
+              private shopFormService: ShopFormService,
+              private cartService: CartService) { }
 
   ngOnInit(): void {
     this.checkoutFormGroup = this.formBuilder.group({
@@ -91,6 +93,8 @@ export class ChekoutComponent implements OnInit {
       this.countries = data;
     }
   )
+
+    this.reviewCartService();
 
 
   }
@@ -187,6 +191,17 @@ export class ChekoutComponent implements OnInit {
   get creditCardNumber() {return this.checkoutFormGroup.get('creditCard.cardNumber');}
   get creditCardSecurityCode() {return this.checkoutFormGroup.get('creditCard.securityCode');}
 
+
+  reviewCartService() {
+
+    this.cartService.totalQuantity.subscribe(
+      totalQuantity => this.totalQuantity = totalQuantity
+    );
+
+    this.cartService.totalPrice.subscribe(
+      totalPrice => this.totalPrice = totalPrice
+    );
+  }
 
 
 }
