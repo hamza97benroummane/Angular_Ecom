@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3a3ff52-38b7-497b-8724-29e13d85a4c9" name="Changes" comment="Add Validation Rules For  Credit Card section">
+      <change afterPath="$PROJECT_DIR$/src/app/common/address.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/address.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/customer.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/customer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/order-item.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/order-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/order.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/order.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/purchase.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/common/purchase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/checkout.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/checkout.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chekout/chekout.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/cart.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +121,9 @@
       <workItem from="1730366354021" duration="17293000" />
       <workItem from="1730453591526" duration="18433000" />
       <workItem from="1730719113559" duration="83000" />
-      <workItem from="1730719206166" duration="1474000" />
+      <workItem from="1730719206166" duration="3312000" />
+      <workItem from="1730797392181" duration="7851000" />
+      <workItem from="1731056968677" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Pagination for searching by keyword">
       <created>1730284867942</created>
